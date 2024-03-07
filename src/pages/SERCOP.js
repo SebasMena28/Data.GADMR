@@ -20,6 +20,7 @@ import {
 } from '../sections/@dashboard/app';
 import { useAuth } from '../context/supaContex';
 import ChatBubble from 'src/layouts/chatbot/chatbot';
+//import Select from 'react-select';
 
 // ----------------------------------------------------------------------
 
@@ -57,6 +58,7 @@ export default function SERCOP() {
     setCodigo(nuevoCodigo);
   };
 
+
   const sercopEmbebido = `https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/ocds/${codigo}?etapa=licitacion`;
   //console.log(user)
   //console.log(linkLooker)
@@ -66,12 +68,21 @@ export default function SERCOP() {
         <title> GADM RIOBAMBA</title>
       </Helmet>
 
-      <div>
+      <div style={{marginBottom: '10px'}}>
         <label htmlFor="codigoSelect">Elemento:  </label>
         <select
           id="codigoSelect"
           value={codigo}
           onChange={(e) => handleChangeCodigo(e.target.value)}
+          style={{
+            width: '100%',
+            padding: '8px',
+            border: '1px solid #ccc',
+            borderRadius: '4px',
+            fontSize: '14px',
+            outline: 'none',
+            /* Otros estilos según tus preferencias */
+          }}
         >
           {opcionesCodigos.map((opcion) => (
             <option key={opcion.valor} value={opcion.valor}>
@@ -81,7 +92,7 @@ export default function SERCOP() {
         </select>
       </div>
     
-      <div style={{ height: '100%',position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000' }}>
+      <div style={{ position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000' }}>
         <iframe title="Google Spreadsheet" src={sercopEmbebido} style={{ position: 'absolute', top: '-45%', left: '0', width: '100%', height: '150%', border: 'none' }}></iframe>
       </div>
 

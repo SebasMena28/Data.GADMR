@@ -33,11 +33,16 @@ export default function PAC() {
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <div style={{ position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000' }}>
-        <iframe title="Google Spreadsheet" src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252" style={{ position: 'absolute', top: '-21%', left: '0', width: '100%', height: '150%', border: 'none' }}></iframe>
-      </div>
-
-      <ChatBubble url={chatUrl} />
+      <Container maxWidth="xl" style={{height: '100%', position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000'}}>
+      <iframe
+        title="DASHBOARD"
+        src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252"
+        style={{ position: 'absolute', top: '-21%', left: '0', width: '100%', height: '150%', border: 'none' }}
+        allowFullScreen
+      />
+      
+    </Container>
+    <ChatBubble url={chatUrl} />
     </>
   );
 }

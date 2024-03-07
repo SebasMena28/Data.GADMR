@@ -56,13 +56,14 @@ export default function LoginPage() {
         {mdUp && (
           <StyledSection sx={{alignItems:"center", Width:"500px"}}>
           {/*<Carrusel/>*/}
+          
           <img
             className="d-block w-100"
             //src={"https://emiralfg.com/wp-content/uploads/2022/11/emiral-proyectos-ventas-compras.svg"}
-            src={"../../assets/portada.png"}
+            src={"../../assets/PORTADA.svg"}
             alt="First slide"
             
-          />
+        />
           </StyledSection>
 
         )}
@@ -71,7 +72,7 @@ export default function LoginPage() {
         <StyledContent sx={{alignItems:"center"}}>
           <Typography variant="h4" sx={{fontFamily:" Roman", color: "blue"}}>
 
-          <img src="../../assets/iconoRiobamba.png" alt="login" width="300px" />
+            <img src="../../assets/iconoRiobamba.png" alt="login" width="300px" />
 
           </Typography>
           <Divider sx={{ my: 1 }} />

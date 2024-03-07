@@ -33,15 +33,20 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
       sx={{
         width: 180,
         height: 100,
-        display: 'inline-flex',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
         ...sx,
       }}
-      {...other}
     >
-           <img
-        src={`../../../assets/iconoRiobamba.png`} // Ruta de tu imagen
+      <img
+        src={'/assets/LOGO-LOGIN.svg'} // Ruta de la imagen
         alt="Logo"
-        style={{ width: '120%', height: '60%', cursor: 'pointer'}}
+        style={{
+          width: 'auto', // Ajusta el ancho según tus necesidades
+          height: '500%', // Mantiene la proporción de la imagen
+          cursor: 'pointer',
+        }}
       />
     </Box>
   );

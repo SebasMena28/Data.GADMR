@@ -33,18 +33,15 @@ export default function DashboardAppPage() {
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <Container maxWidth="xl" style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
-  <iframe
-    title="DASHBOARD"
-    src={linkLooker}
-    style={{ border: 0, width: '100%', flex: 1,}}
-    allowFullScreen
-    
-  />
-  <ChatBubble url={chatUrl} />
-  </Container>
-
-
+      <Container maxWidth="xl" style={{width: '90%', overflow: 'hidden', marginLeft: '-30px', marginRight: '-50px'}}>
+      <iframe
+        title="DASHBOARD"
+        src={linkLooker}
+        style={{ position: 'fixed', border: 0, width: '80%', flex: 1, height: '100%' }}
+        allowFullScreen
+      />
+      <ChatBubble url={chatUrl} />
+    </Container>
 
     </>
   );

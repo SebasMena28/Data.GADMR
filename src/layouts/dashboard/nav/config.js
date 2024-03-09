@@ -16,12 +16,17 @@ const navConfig = [
     path: '/dashboard/user',
     icon: icon('ic_user'),
   },  
-  /*{
+  {
     title: 'Documentación de PAC',
     path: '/dashboard/products',
-    icon: icon('docs'),
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/3396/3396255.png" alt="login" width="30px" height="30px" />,
   },
   {
+    title: 'Vista de PAC',
+    path: '/dashboard/vista-pac',
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png" alt="login" width="30px" height="30px" />,
+  },
+  /*{
     title: 'Mapa',
     path: '/dashboard/mapa',
     icon: <img src="https://cdn-icons-png.flaticon.com/512/854/854980.png" alt="login" width="30px" height="30px" />,

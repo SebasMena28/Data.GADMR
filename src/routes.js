@@ -11,7 +11,7 @@ import PAC from './pages/PAC';
 import Documentacion from './pages/Documentacion';
 import Mapa from './pages/Mapa';
 import SERCOP from './pages/SERCOP';
-import Chatbot from './pages/Chatbot';
+import VistaPAC from './pages/VistaPAC';
 import {AuthRoute} from './components/protectRoute/AuthRoute';
 import RegisterPage from './pages/RegisterPage';
 import NewUserPage from './pages/NewUserPage';
@@ -30,6 +30,7 @@ export default function Router() {
         { path: 'products',element: <AuthRoute  ><Documentacion/> </AuthRoute>},
         { path: 'mapa',element: <AuthRoute  ><Mapa/> </AuthRoute>},
         { path: 'sercop',element: <AuthRoute  ><SERCOP/> </AuthRoute>},
+        { path: 'vista-pac',element: <AuthRoute  ><VistaPAC/> </AuthRoute>},
         { path: 'blog', element: <AuthRoute  ><BlogPage /> </AuthRoute>},
       ],
     },

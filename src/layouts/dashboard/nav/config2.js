@@ -15,11 +15,16 @@ const navConfig2 = [
     path: '/dashboard/user',
     icon: <img src="https://cdn-icons-png.flaticon.com/256/1425/1425669.png" alt="login" width="30px" height="30px" />,
   },
-  /*{
+  {
+    title: 'Vista de PAC',
+    path: '/dashboard/vista-pac',
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png" alt="login" width="30px" height="30px" />,
+  },
+  {
     title: 'Documentación',
     path: '/dashboard/products',
-    icon: icon('docs'),
-  },*/
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/3396/3396255.png" alt="login" width="30px" height="30px" />,
+  },
   {
     title: 'SERCOP',
     path: '/dashboard/sercop',

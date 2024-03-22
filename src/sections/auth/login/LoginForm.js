@@ -85,7 +85,7 @@ export default function LoginForm() {
       </Stack>
 
       <Stack direction="row" justifyContent="space-between" sx={{ my: 2 }}>
-        <Link variant="subtitle2" underline="hover">
+        <Link variant="subtitle2" underline="hover" href='reset'>
           ¿Olvidaste tu contraseña?
         </Link>
       </Stack>

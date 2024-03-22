@@ -43,9 +43,11 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
         src={'/assets/LOGO-LOGIN.svg'} // Ruta de la imagen
         alt="Logo"
         style={{
-          width: 'auto', // Ajusta el ancho según tus necesidades
-          height: '500%', // Mantiene la proporción de la imagen
+          width: 'auto', 
+          height: 'auto', 
           cursor: 'pointer',
+          display: 'block', 
+          margin: 'auto',
         }}
       />
     </Box>

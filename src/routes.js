@@ -12,8 +12,11 @@ import Documentacion from './pages/Documentacion';
 import Mapa from './pages/Mapa';
 import SERCOP from './pages/SERCOP';
 import VistaPAC from './pages/VistaPAC';
+import Subsistemas from './pages/Subsistemas';
 import {AuthRoute} from './components/protectRoute/AuthRoute';
 import RegisterPage from './pages/RegisterPage';
+import ResetPassword from './pages/RecuperarContrasenia';
+import ModificarContrasenia from './sections/auth/login/ReestablecerContrasenia';
 import NewUserPage from './pages/NewUserPage';
 import DocsPage from './pages/DocsPage';
 
@@ -31,12 +34,21 @@ export default function Router() {
         { path: 'mapa',element: <AuthRoute  ><Mapa/> </AuthRoute>},
         { path: 'sercop',element: <AuthRoute  ><SERCOP/> </AuthRoute>},
         { path: 'vista-pac',element: <AuthRoute  ><VistaPAC/> </AuthRoute>},
+        { path: 'subsistemas',element: <AuthRoute  ><Subsistemas/> </AuthRoute>},
         { path: 'blog', element: <AuthRoute  ><BlogPage /> </AuthRoute>},
       ],
     },
     {
       path: 'login',
       element: <LoginPage />,
+    },
+    {
+      path: 'reset',
+      element: <ResetPassword />,
+    },
+    {
+      path: 'reset-password',
+      element: <ModificarContrasenia />,
     },
     {
       path: 'register',

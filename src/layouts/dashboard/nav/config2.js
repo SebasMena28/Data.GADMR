@@ -21,7 +21,7 @@ const navConfig2 = [
     icon: <img src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png" alt="login" width="30px" height="30px" />,
   },
   {
-    title: 'Documentación',
+    title: 'Documentación de PAC',
     path: '/dashboard/products',
     icon: <img src="https://cdn-icons-png.flaticon.com/512/3396/3396255.png" alt="login" width="30px" height="30px" />,
   },
@@ -29,6 +29,11 @@ const navConfig2 = [
     title: 'SERCOP',
     path: '/dashboard/sercop',
     icon: <img src={`/assets/sercop.png`} alt="login" width="30px" height="30px" />,
+  },
+  {
+    title: 'Subsistemas',
+    path: '/dashboard/subsistemas',
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/3206/3206042.png" alt="login" width="30px" height="30px" />,
   },
   {
     title: 'Cerrar sesión',

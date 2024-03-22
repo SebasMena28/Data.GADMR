@@ -29,20 +29,44 @@ export default function PAC() {
 
   return (
     <>
-      <Helmet>
+      {/*<Helmet>
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <Container maxWidth="xl" style={{height: '100%', position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000'}}>
+      <Container maxWidth="xl" style={{height: '160%', marginTop: '-7.5%', paddingTop: '2%',position: 'relative', width: '100%', overflow: 'hidden'}}>
       <iframe
         title="DASHBOARD"
         src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252"
-        style={{ position: 'absolute', top: '-21%', left: '0', width: '100%', height: '150%', border: 'none' }}
+        style={{ position: 'absolute', top: '-30%', left: '0', width: '100%', height: '160%', border: 'none' }}
+        allowFullScreen
+      />
+      
+    </Container>
+  <ChatBubble url={chatUrl} />*/}
+
+  <Helmet>
+        <title> GADM RIOBAMBA </title>
+      </Helmet>
+
+      <Container maxWidth="xl" 
+      style={{height: '100%', // Cambiado a 100%
+        marginTop: '-2%', // Eliminado el margen superior negativo
+        position: 'relative',
+        width: '100%',
+        overflow: 'auto',
+        paddingBottom: '50%',}}>
+      <iframe
+        title="DASHBOARD"
+        src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252"
+        style={{ position: 'absolute', top: '-22%', left: '0', width: '100%', height: '118%', border: 'none' }}
         allowFullScreen
       />
       
     </Container>
     <ChatBubble url={chatUrl} />
+
+
+
     </>
   );
 }

@@ -2,12 +2,17 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import { supabase } from '../utility/SupabaseClient';
+import { assign } from 'lodash';
 
 const AuthContext = createContext({});
 
 export const useAuth = () => useContext(AuthContext);
 
 const login = async (email, password) => supabase.auth.signInWithPassword({ email, password });
+const reset = async (email) => supabase.auth.resetPasswordForEmail(email, {
+  redirectTo: 'http://localhost:3000/account/update-password',
+})
+const cambiar = async (new_password) => await supabase.auth.updateUser({ password: new_password })
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
@@ -153,6 +158,41 @@ const AuthProvider = ({ children }) => {
     //LINK LOOKER
     switch (usuario) {      
       //LISTO
+      case 'auquia@gadmriobamba.gob.ec': //ADMINISTRATIVO
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
+        setLink3('https://script.google.com/macros/s/AKfycbxKxQvpG7MynR75qqVexp-wdaarZzwpJh-RfzpqSeuHWJIj3zXWt76nwSbwgE8hY-h8/exec')
+        setNombre('Ánderson Auqui')
+        setDireccion('Gestión Administrativa')
+        break;
+      case 'santillane@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbycXRn8L94TEjO9I5aDtdb0u8SnclfvpvFZWX0uyEwP0j0HIFJjuKzX3zOHGgKdfAbm/exec')
+        setNombre('Erika Santillán')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'remachejd@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbycXRn8L94TEjO9I5aDtdb0u8SnclfvpvFZWX0uyEwP0j0HIFJjuKzX3zOHGgKdfAbm/exec')
+        setNombre('Juan Diego Remache')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'huilcav@gadmriobamba.gob.ec': //REGISTRO DE LA PROPIEDAD
+        setLink('https://lookerstudio.google.com/embed/reporting/a8c32965-6228-4eb2-9432-e219034cce23/page/p_2ts0qp1xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
+        setLink3('https://script.google.com/macros/s/AKfycbxw4uXEez6jPOWRd0N8TKHyHtn4Xhx41wWGyOfCxtzJcD1JrsNMPEHqbyKD8N1rLdpP/exec')
+        setNombre('Germán Huilca')
+        setDireccion('Gestión de Registro de la Propiedad')
+        break;
+      case 'galarzae@gadmriobamba.gob.ec': //REGISTRO DE LA PROPIEDAD
+        setLink('https://lookerstudio.google.com/embed/reporting/a8c32965-6228-4eb2-9432-e219034cce23/page/p_2ts0qp1xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
+        setLink3('https://script.google.com/macros/s/AKfycbxw4uXEez6jPOWRd0N8TKHyHtn4Xhx41wWGyOfCxtzJcD1JrsNMPEHqbyKD8N1rLdpP/exec')
+        setNombre('Elodia Galarza')
+        setDireccion('Gestión de Registro de la Propiedad')
+        break;
       case 'neiram@gadmriobamba.gob.ec': //SERVICIOS MUNICIPALES
         setLink('https://lookerstudio.google.com/embed/reporting/52db98c6-f191-4d84-96d4-6ded09d01efa/page/p_pi29rz5xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
@@ -189,13 +229,7 @@ const AuthProvider = ({ children }) => {
         setNombre('Ana Lucía Erazo')
         setDireccion('Gestión de Ordenamiento Territorial')
         break;
-      case 'huilcav@gadmriobamba.gob.ec': //REGISTRO DE LA PROPIEDAD
-        setLink('https://lookerstudio.google.com/embed/reporting/a8c32965-6228-4eb2-9432-e219034cce23/page/p_2ts0qp1xbd');
-        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
-        setLink3('https://script.google.com/macros/s/AKfycbxw4uXEez6jPOWRd0N8TKHyHtn4Xhx41wWGyOfCxtzJcD1JrsNMPEHqbyKD8N1rLdpP/exec')
-        setNombre('Germán Huilca')
-        setDireccion('Gestión de Registro de la Propiedad')
-        break;
+      
       case 'cujilemaa@gadmriobamba.gob.ec': //CULTURA, DEPORTES Y RECREACION
         setLink('https://lookerstudio.google.com/embed/reporting/8e4fceda-a164-4639-84a0-2c8ad984f488/page/p_gxh7yabxbd');
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
@@ -285,7 +319,7 @@ const AuthProvider = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, nombre, direccion, linkPAC, linkLooker, linkDoc, mapa, login, getClientes, addClient, updateClient, deleteClient, uploadDocument }}>
+    <AuthContext.Provider value={{ user, nombre, direccion, linkPAC, linkLooker, linkDoc, mapa, login, reset, cambiar, getClientes, addClient, updateClient, deleteClient, uploadDocument }}>
       {children}
     </AuthContext.Provider>
   );

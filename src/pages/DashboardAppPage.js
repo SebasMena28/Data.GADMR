@@ -33,11 +33,16 @@ export default function DashboardAppPage() {
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <Container maxWidth="xl" style={{height: '150%', position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden'}}>
+      <Container maxWidth="xl" 
+      style={{height: '100%', // Cambiado a 100%
+      position: 'relative',
+      width: '100%',
+      overflow: 'hidden',
+      paddingBottom: '50%',}}>
       <iframe
         title="DASHBOARD"
         src={linkLooker}
-        style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '175%', border: 'none' }}
+        style={{ position: 'absolute', left: '0', width: '100%', height: '150%', border: 'none' }}
         allowFullScreen
       />
     </Container>

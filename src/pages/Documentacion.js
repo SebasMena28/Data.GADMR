@@ -32,11 +32,17 @@ export default function Documentacion() {
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <Container maxWidth="xl" style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <Container maxWidth="xl" 
+      style={{ height: '200%', // Cambiado a 100%
+        marginTop: '-2%', // Eliminado el margen superior negativo
+        position: 'relative',
+        width: '100%',
+        overflow: 'hidden',
+        paddingBottom: '50%',}}>
   <iframe
     title="Gestión Documental"
     src={linkDoc}
-    style={{ border: 0, width: '100%', flex: 1,}}
+    style={{ position: 'absolute', left: '0', width: '100%', height: '200%', border: 'none'}}
     allowFullScreen
     
 />

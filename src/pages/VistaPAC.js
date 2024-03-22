@@ -33,11 +33,17 @@ export default function VistaPAC() {
         <title> GADM RIOBAMBA </title>
       </Helmet>
 
-      <Container maxWidth="xl" style={{height: '100%', position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden', border: '1px solid #000'}}>
+      <Container maxWidth="xl" 
+      style={{height: '100%', // Cambiado a 100%
+        marginTop: '-2%', // Eliminado el margen superior negativo
+        position: 'relative',
+        width: '100%',
+        overflow: 'auto',
+        paddingBottom: '50%',}}>
       <iframe
         title="DASHBOARD"
         src="https://docs.google.com/spreadsheets/d/1tJe-1HmJx2LRGx1BKp6PKlqQ72d0uEH9eDWlGpnKH_I/edit?usp=drive_link"
-        style={{ position: 'absolute', top: '-21%', left: '0', width: '100%', height: '150%', border: 'none' }}
+        style={{ position: 'absolute', top: '-22%', left: '0', width: '100%', height: '115%', border: 'none' }}
         allowFullScreen
       />
       

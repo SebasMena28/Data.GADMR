@@ -18,7 +18,7 @@ import {
   AppConversionRates,
 } from '../sections/@dashboard/app';
 import { useAuth } from '../context/supaContex';
-import ChatBubble from 'src/layouts/chatbot/chatbot';
+import Apu from './chatbotApu';
 
 // ----------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ export default function DashboardAppPage() {
       </Helmet>
 
       <Container maxWidth="xl" 
-      style={{height: '100%', // Cambiado a 100%
+      style={{height: '120%', // Cambiado a 100%
       position: 'relative',
       width: '100%',
       overflow: 'hidden',
@@ -42,11 +42,11 @@ export default function DashboardAppPage() {
       <iframe
         title="DASHBOARD"
         src={linkLooker}
-        style={{ position: 'absolute', left: '0', width: '100%', height: '150%', border: 'none' }}
+        style={{ position: 'absolute', left: '0', width: '100%', height: '120%', border: 'none' }}
         allowFullScreen
       />
     </Container>
-    <ChatBubble url={chatUrl} />
+    <Apu url={chatUrl} />
 
     </>
   );

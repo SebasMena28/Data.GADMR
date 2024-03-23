@@ -1,3 +1,6 @@
+//https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec secretaria general del concejo
+//https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec PATRIMONIO
+
 import { createContext, useContext, useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -168,31 +171,277 @@ const AuthProvider = ({ children }) => {
       case 'santillane@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
         setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
-        setLink3('https://script.google.com/macros/s/AKfycbycXRn8L94TEjO9I5aDtdb0u8SnclfvpvFZWX0uyEwP0j0HIFJjuKzX3zOHGgKdfAbm/exec')
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
         setNombre('Erika Santillán')
         setDireccion('Departamento de Ordenamiento Territorial')
         break;
       case 'remachejd@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
         setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
-        setLink3('https://script.google.com/macros/s/AKfycbycXRn8L94TEjO9I5aDtdb0u8SnclfvpvFZWX0uyEwP0j0HIFJjuKzX3zOHGgKdfAbm/exec')
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
         setNombre('Juan Diego Remache')
         setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'roberto.vallejo@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Roberto Vallejo')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'davalosc@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Cesar Dávalos')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'ornar@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Ramiro Orna')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'monteroe@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Edgar Montero')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'alvears@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Stephanie Alvear')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'chuquimarcaj@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Jose Chuquimarca')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'vascof@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
+        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbw07HgEB_nFdvxqzKouQcVGMrY5vvt0_KbksCHsSdoA8l1scDfv4bhOMmS73lycZLnp/exec')
+        setNombre('Fernanda Vasco')
+        setDireccion('Departamento de Ordenamiento Territorial')
+        break;
+      case 'moncayog@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Guido Moncayo')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'martinezg@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Geovanna Martinez')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'nataly.arevalo@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Nataly Arévalo')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'dennys.urquizo@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Dennys Urquizo')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'guallic@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Catherine Gualli')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'diazf@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Fernando Díaz')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'alvarezd@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Dolores Álvarez')
+        setDireccion('Secretaría General del Concejo')
+        break;
+      case 'vallejor@gadmriobamba.gob.ec': //SECRETARIA GENERAL DEL CONCEJO
+        setLink('https://lookerstudio.google.com/embed/reporting/13f437d2-3771-468b-ba56-4cbfc4d9ee50/page/p_pwms3dlaad');
+        setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")
+        setLink3('https://script.google.com/macros/s/AKfycbxjlrJnjFR7skpJR18JZ0935dlHv9pvOQetZcIpTIJGSRP9-8uFN3wB1Ag-iAyB2K_7sg/exec')
+        setNombre('Ramiro Vallejo')
+        setDireccion('Secretaría General del Concejo')
         break;
       case 'huilcav@gadmriobamba.gob.ec': //REGISTRO DE LA PROPIEDAD
         setLink('https://lookerstudio.google.com/embed/reporting/a8c32965-6228-4eb2-9432-e219034cce23/page/p_2ts0qp1xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
-        setLink3('https://script.google.com/macros/s/AKfycbxw4uXEez6jPOWRd0N8TKHyHtn4Xhx41wWGyOfCxtzJcD1JrsNMPEHqbyKD8N1rLdpP/exec')
+        setLink3('https://script.google.com/macros/s/AKfycbzUCrAcoChq-4MxoKnACXMOr_7tcGf4Gvs8ZUE89ZE8S7mf4-P6kFnrT2kLzSEaw3RtJw/exec')
         setNombre('Germán Huilca')
-        setDireccion('Gestión de Registro de la Propiedad')
+        setDireccion('Gestión de Registro de la Propiedad') 
         break;
       case 'galarzae@gadmriobamba.gob.ec': //REGISTRO DE LA PROPIEDAD
         setLink('https://lookerstudio.google.com/embed/reporting/a8c32965-6228-4eb2-9432-e219034cce23/page/p_2ts0qp1xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
-        setLink3('https://script.google.com/macros/s/AKfycbxw4uXEez6jPOWRd0N8TKHyHtn4Xhx41wWGyOfCxtzJcD1JrsNMPEHqbyKD8N1rLdpP/exec')
+        setLink3('https://script.google.com/macros/s/AKfycbzUCrAcoChq-4MxoKnACXMOr_7tcGf4Gvs8ZUE89ZE8S7mf4-P6kFnrT2kLzSEaw3RtJw/exec')
         setNombre('Elodia Galarza')
         setDireccion('Gestión de Registro de la Propiedad')
         break;
+      case 'vallejoag@gadmriobamba.gob.ec': //AMBIENTAL
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzKgN9Kllf7TuyxozJb_VHj_QAzBKYoDPKB_yoR7A6MMGFM2xqsJ3sOMMeCvQt9wz2p/exec')
+        setNombre('Angel Vallejo')
+        setDireccion('Gestión Ambiental, Salubridad e Higiene')
+        break;
+      case 'andres.viteri@gadmriobamba.gob.ec': //AMBIENTAL
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzKgN9Kllf7TuyxozJb_VHj_QAzBKYoDPKB_yoR7A6MMGFM2xqsJ3sOMMeCvQt9wz2p/exec')
+        setNombre('Andrés Viteri')
+        setDireccion('Gestión Ambiental, Salubridad e Higiene')
+        break;
+      case 'melenal@gadmriobamba.gob.ec': //AMBIENTAL
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzKgN9Kllf7TuyxozJb_VHj_QAzBKYoDPKB_yoR7A6MMGFM2xqsJ3sOMMeCvQt9wz2p/exec')
+        setNombre('Luis Melena')
+        setDireccion('Gestión Ambiental, Salubridad e Higiene')
+        break;
+      case 'jimenezs@gadmriobamba.gob.ec': //AMBIENTAL
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzKgN9Kllf7TuyxozJb_VHj_QAzBKYoDPKB_yoR7A6MMGFM2xqsJ3sOMMeCvQt9wz2p/exec')
+        setNombre('Silvia Jimenez')
+        setDireccion('Gestión Ambiental, Salubridad e Higiene')
+        break;
+      case 'chaucace@gadmriobamba.gob.ec': //AMBIENTAL
+        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzKgN9Kllf7TuyxozJb_VHj_QAzBKYoDPKB_yoR7A6MMGFM2xqsJ3sOMMeCvQt9wz2p/exec')
+        setNombre('Estefanía Chauca')
+        setDireccion('Gestión Ambiental, Salubridad e Higiene')
+        break;
+      case 'vasconeze@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Érika Vásconez')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'vasconeze@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Érika Vásconez')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'reald@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Danny Real')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'mejiad@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Danilo Mejía')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'pombozaa@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Andrés Pomboza')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'lopezd@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Milton Lopez')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'chavezf@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Fernando Chavez')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'segovial@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('Luis Segovia')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'robayowr@gadmriobamba.gob.ec': //Patrimonio Cultural
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzk9CrdXkwW9mXVA9cGSIaxuowamK0sdibRfU60LwSNpj40m0l59kFbnCZZzu1rJMQfww/exec')
+        setNombre('William Robayo')
+        setDireccion('Gestión de Patrimonio Cultural')
+        break;
+      case 'andocillam@gadmriobamba.gob.ec': //CULTURA, DEPORTES Y RECREACION
+        setLink('https://lookerstudio.google.com/embed/reporting/8e4fceda-a164-4639-84a0-2c8ad984f488/page/p_gxh7yabxbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbzSJwDAiLErh4H1fW3BZykhqxYoqYFFVPER85hBI9mDXgiNYHCp3m4x8kw0mmlkt_d_yA/exec')
+        setNombre('Marco Andocilla')
+        setDireccion('Gestión de Cultura, Deportes y Recreación')
+        break;
+      case 'verad@gadmriobamba.gob.ec': //DESARROLLO SOCIAL Y HUMANO
+        setLink('https://lookerstudio.google.com/embed/reporting/19d55ce7-1ae4-4280-ae14-2c93ec51a2a5/page/p_lt1zgy9wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbwskSHxW0zCC71RFbNlGUE4omjPPXGW3z1VOh_gG0ZPNj4DVKJkTMJLSZoqGl_eg4Ky7w/exec')
+        setNombre('Doris Vera')
+        setDireccion('Gestión de Desarrollo Social y Humano')
+        break;
+      case 'ayalaje@gadmriobamba.gob.ec': //DESARROLLO SOCIAL Y HUMANO
+        setLink('https://lookerstudio.google.com/embed/reporting/19d55ce7-1ae4-4280-ae14-2c93ec51a2a5/page/p_lt1zgy9wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbwskSHxW0zCC71RFbNlGUE4omjPPXGW3z1VOh_gG0ZPNj4DVKJkTMJLSZoqGl_eg4Ky7w/exec')
+        setNombre('Jissela Ayala')
+        setDireccion('Gestión de Desarrollo Social y Humano')
+        break;
+      case 'mullol@gadmriobamba.gob.ec': //DESARROLLO SOCIAL Y HUMANO
+        setLink('https://lookerstudio.google.com/embed/reporting/19d55ce7-1ae4-4280-ae14-2c93ec51a2a5/page/p_lt1zgy9wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbwskSHxW0zCC71RFbNlGUE4omjPPXGW3z1VOh_gG0ZPNj4DVKJkTMJLSZoqGl_eg4Ky7w/exec')
+        setNombre('Luis Mullo')
+        setDireccion('Gestión de Desarrollo Social y Humano')
+        break;
+      case 'munoza@gadmriobamba.gob.ec': //COMUNICACION
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbyJBALF9r-HJEicgYoQuWUtMs9Wu-vZuva3Ag5bTmKHYFckr-V3P_V6R9MLclnJAREb/exec')
+        setNombre('Ana Muñoz')
+        setDireccion('Gestión de Comunicacion')
+        break;
+      case 'agilabs@gadmriobamba.gob.ec': //COMUNICACION
+        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbyJBALF9r-HJEicgYoQuWUtMs9Wu-vZuva3Ag5bTmKHYFckr-V3P_V6R9MLclnJAREb/exec')
+        setNombre('Bryan Agila')
+        setDireccion('Gestión de Comunicacion')
+        break;
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       case 'neiram@gadmriobamba.gob.ec': //SERVICIOS MUNICIPALES
         setLink('https://lookerstudio.google.com/embed/reporting/52db98c6-f191-4d84-96d4-6ded09d01efa/page/p_pi29rz5xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
@@ -208,55 +457,12 @@ const AuthProvider = ({ children }) => {
         setMapa("https://www.arcgis.com/apps/dashboards/db8047c4d5fb42adb8902fea286a3a09")
         setDireccion('Gestión de Obras Públicas')
         break;
-      case 'duchic@gadmriobamba.gob.ec': //AMBIENTAL
-        setLink('https://lookerstudio.google.com/embed/reporting/c897c2af-5ec5-400e-b675-a976c72b4949/page/p_t583nm8wbd');
-        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbx89V-gyXOb3Hh6pV2roovc-g6fio_B4HyB_nGPrGyEdLzn1VZIB6KsAzEC8GHtojgS/exec')
-        setNombre('Carlos Duchi')
-        setDireccion('Gestión Ambiental, Salubridad e Higiene')
-        break;
       case 'villaciso@gadmriobamba.gob.ec': //CONSEJO CANTONAL
         setLink('https://lookerstudio.google.com/embed/reporting/11ad4979-295a-4cf1-9b69-0f26740b7725/page/p_tqwfrvz6bd'); 
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
         setLink3('https://script.google.com/macros/s/AKfycbxDgmjVOHUEidAADgqrXO81s6IA95-euEoyc1jBT7xgPAi2YmFegPkzSEouuNfuTArQpQ/exec')
         setNombre('Olga Villacis')
         setDireccion('Gestión de Consejo Cantonal de Protección de Derechos')
-        break;
-      case 'erazoa@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
-        setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
-        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252")
-        setLink3('https://script.google.com/macros/s/AKfycbyoR_mmNpgALSaDvvAjz69NnnMx7zsdNIMIqMVJOebwBvtweLVj63hpCNk1Q4jWur_O/exec')
-        setNombre('Ana Lucía Erazo')
-        setDireccion('Gestión de Ordenamiento Territorial')
-        break;
-      
-      case 'cujilemaa@gadmriobamba.gob.ec': //CULTURA, DEPORTES Y RECREACION
-        setLink('https://lookerstudio.google.com/embed/reporting/8e4fceda-a164-4639-84a0-2c8ad984f488/page/p_gxh7yabxbd');
-        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbybobHh-vc0RyKRJsmnjhN5lSmPnhPOhDh152b7nFdQwFTvLFULFF29jW_XXcyM7iC2iA/exec')
-        setNombre('Achic Cujilema')
-        setDireccion('Gestión de Cultura, Deportes y Recreación')
-        break;
-      case 'verad@gadmriobamba.gob.ec': //DESARROLLO SOCIAL Y HUMANO
-        setLink('https://lookerstudio.google.com/embed/reporting/19d55ce7-1ae4-4280-ae14-2c93ec51a2a5/page/p_lt1zgy9wbd');
-        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbw1k0eAfB8KRhGT-8keb2lc8d6-rLzfKecWIEUF7UtXeyEFLnHnWVvUr0Lg-TdcjMCQ/exec')
-        setNombre('Doris Vera')
-        setDireccion('Gestión de Desarrollo Social y Humano')
-        break;
-      case 'vasconeze@gadmriobamba.gob.ec': //Patrimonio Cultural
-        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
-        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbxeUKHR9O27DlmgrRvk4YGlJ4W3QBccfYUTg7c1vH7rf0nqqfsiunkDOegibcd3bWZD/exec')
-        setNombre('Érika Vásconez')
-        setDireccion('Gestión de Patrimonio Cultural')
-        break;
-      case 'munoza@gadmriobamba.gob.ec': //COMUNICACION
-        setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
-        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbz64BWtRxRi1BQssASBjSfnr03fhnqehH9igbv7MmpyCBTTQav_dNZNMZqzBso83MWq/exec')
-        setNombre('Ana Muñoz')
-        setDireccion('Gestión de Comunicacion')
         break;
       case 'guadalupej@gadmriobamba.gob.ec': //TALENTO HUMANO
         setLink('https://lookerstudio.google.com/embed/reporting/2fcee205-f8af-45e5-91d8-56c6799b2272/page/p_spui33s5bd'); /////////////////////////SIN DASHBOARD
@@ -288,11 +494,6 @@ const AuthProvider = ({ children }) => {
         break;
 
       ////////////////////////////////////////////////////////////
-      case 'sebasmena@gmail.com': //ADMINISTRATIVO
-        setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_t0tc9iexbd');
-        setNombre('Sebastian Mena')
-        setDireccion('Gestión Administrativa')
-        break;
       case 'tecnico-oopp@gadmr.com': //MOVILIDAD
         setLink('https://lookerstudio.google.com/embed/reporting/4554de4e-d93d-4838-bc0f-c92a9e4f53e2/page/p_u2lgj44wbd');
         setNombre('Sebastian Mena')

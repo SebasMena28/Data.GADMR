@@ -18,7 +18,7 @@ import {
   AppConversionRates,
 } from '../sections/@dashboard/app';
 import { useAuth } from '../context/supaContex';
-import ChatBubble from 'src/layouts/chatbot/chatbot';
+import Apu from './chatbotApu';
 
 // ----------------------------------------------------------------------
 
@@ -63,7 +63,7 @@ export default function PAC() {
       />
       
     </Container>
-    <ChatBubble url={chatUrl} />
+    <Apu url={chatUrl} />
 
 
 

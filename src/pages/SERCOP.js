@@ -20,7 +20,7 @@ import {
   AppConversionRates,
 } from '../sections/@dashboard/app';
 import { useAuth } from '../context/supaContex';
-import ChatBubble from 'src/layouts/chatbot/chatbot';
+import Apu from './chatbotApu';
 //import Select from 'react-select';
 
 // ----------------------------------------------------------------------
@@ -136,7 +136,7 @@ export default function SERCOP() {
         <iframe title="Google Spreadsheet" src={sercopEmbebido} style={{ position: 'absolute', top: '-20%', left: '0', width: '100%', height: '248%', border: 'none' }}></iframe>
       </div>
 
-      <ChatBubble url={chatUrl} />
+      <Apu url={chatUrl} />
         
     </>
   );

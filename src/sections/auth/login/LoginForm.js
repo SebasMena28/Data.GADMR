@@ -84,15 +84,18 @@ export default function LoginForm() {
         />
       </Stack>
 
-      <Stack direction="row" justifyContent="space-between" sx={{ my: 2 }}>
+      {/*<Stack direction="row" justifyContent="space-between" sx={{ my: 2 }}>
         <Link variant="subtitle2" underline="hover" href='reset'>
           ¿Olvidaste tu contraseña?
         </Link>
-      </Stack>
+        </Stack>*/}
 
       <LoadingButton size="large" type="submit" variant="contained" onClick={handleSubmit}>
         Iniciar sesión
       </LoadingButton>
+
+      {window.location.pathname !== '/login' && <Apu url="" />}
+
     </>
   );
 }

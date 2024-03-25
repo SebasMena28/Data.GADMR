@@ -94,8 +94,6 @@ export default function LoginForm() {
         Iniciar sesión
       </LoadingButton>
 
-      {window.location.pathname !== '/login' && <Apu url="" />}
-
     </>
   );
 }

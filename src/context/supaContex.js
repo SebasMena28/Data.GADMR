@@ -164,10 +164,31 @@ const AuthProvider = ({ children }) => {
       case 'auquia@gadmriobamba.gob.ec': //ADMINISTRATIVO
         setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_z1sgbeexbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
-        setLink3('https://script.google.com/macros/s/AKfycbxKxQvpG7MynR75qqVexp-wdaarZzwpJh-RfzpqSeuHWJIj3zXWt76nwSbwgE8hY-h8/exec')
+        setLink3('https://script.google.com/macros/s/AKfycbyKnwIfyrfNiMpeigcK4IP2JDGyEbwY2she8CL6WLMLCqxhmVdSL9gKwCcdQx8526Zb/exec')
         setNombre('Ánderson Auqui')
         setDireccion('Gestión Administrativa')
         break;
+      case 'nunezmi@gadmriobamba.gob.ec': //ADMINISTRATIVO
+        setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_z1sgbeexbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
+        setLink3('https://script.google.com/macros/s/AKfycbyKnwIfyrfNiMpeigcK4IP2JDGyEbwY2she8CL6WLMLCqxhmVdSL9gKwCcdQx8526Zb/exec')
+        setNombre('Mauricio Nuñez')
+        setDireccion('Gestión Administrativa')
+        break; 
+      case 'neiram@gadmriobamba.gob.ec': //ADMINISTRATIVO
+        setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_z1sgbeexbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
+        setLink3('https://script.google.com/macros/s/AKfycbyKnwIfyrfNiMpeigcK4IP2JDGyEbwY2she8CL6WLMLCqxhmVdSL9gKwCcdQx8526Zb/exec')
+        setNombre('María José Neira')
+        setDireccion('Gestión Administrativa')
+        break; 
+      case 'ramosll@gadmriobamba.gob.ec': //ADMINISTRATIVO
+        setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_z1sgbeexbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
+        setLink3('https://script.google.com/macros/s/AKfycbyKnwIfyrfNiMpeigcK4IP2JDGyEbwY2she8CL6WLMLCqxhmVdSL9gKwCcdQx8526Zb/exec')
+        setNombre('Lorena Ramos')
+        setDireccion('Gestión Administrativa')
+        break; 
       case 'santillane@gadmriobamba.gob.ec': //ORDENAMIENTO TERRITORIAL
         setLink('https://lookerstudio.google.com/embed/reporting/3cdd4c47-8054-44f1-951f-fe4955f97e8f/page/p_lfkxvi4xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1IIfDxULuk5TszwRxFwthbsDrr_8HlP5srcPai-xvUfQ/edit?usp=sharing")

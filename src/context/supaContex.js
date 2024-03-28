@@ -168,6 +168,13 @@ const AuthProvider = ({ children }) => {
         setNombre('Ánderson Auqui')
         setDireccion('Gestión Administrativa')
         break;
+      case 'astudilloj@gadmriobamba.gob.ec': //ADMINISTRATIVO
+        setLink('https://lookerstudio.google.com/embed/reporting/e451316a-c7f1-42d4-8fcd-5b59951f137d/page/p_z1sgbeexbd');
+        setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
+        setLink3('https://script.google.com/macros/s/AKfycbyKnwIfyrfNiMpeigcK4IP2JDGyEbwY2she8CL6WLMLCqxhmVdSL9gKwCcdQx8526Zb/exec')
+        setNombre('Janet Astudillo')
+        setDireccion('Gestión Administrativa')
+        break;
       case 'nunezmi@gadmriobamba.gob.ec': //SERVICIOS MUNICIPALES
         setLink('https://lookerstudio.google.com/embed/reporting/52db98c6-f191-4d84-96d4-6ded09d01efa/page/p_pi29rz5xbd');
         setLink2("https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252");
@@ -448,6 +455,13 @@ const AuthProvider = ({ children }) => {
         setNombre('Luis Mullo')
         setDireccion('Gestión de Desarrollo Social y Humano')
         break;
+      case 'cabezasjo@gadmriobamba.gob.ec': //DESARROLLO SOCIAL Y HUMANO
+        setLink('https://lookerstudio.google.com/embed/reporting/19d55ce7-1ae4-4280-ae14-2c93ec51a2a5/page/p_lt1zgy9wbd');
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbx6IHNCV-VTAvNO0l6RG5QtJWgb4L_LlfCUWhxJ2W7b8vu7T4AFj1Rd7YmKsWFqu0_FZA/exec')
+        setNombre('José Cabezas')
+        setDireccion('Gestión de Desarrollo Social y Humano')
+        break;
       case 'munoza@gadmriobamba.gob.ec': //COMUNICACION
         setLink('https://lookerstudio.google.com/embed/reporting/57f6b116-b8df-4bac-b225-1bf10790dbc3/page/p_x25ck02xbd');
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
@@ -604,22 +618,44 @@ const AuthProvider = ({ children }) => {
         setNombre('Edison Rosero')
         setDireccion('Gestión de Procuradoría Institucional')
         break;
-      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      
-      case 'villaciso@gadmriobamba.gob.ec': //CONSEJO CANTONAL
+      case 'salazarg@gadmriobamba.gob.ec': //CONSEJO CANTONAL de PROTECCIÓN DE DERECHOS
         setLink('https://lookerstudio.google.com/embed/reporting/11ad4979-295a-4cf1-9b69-0f26740b7725/page/p_tqwfrvz6bd'); 
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbxDgmjVOHUEidAADgqrXO81s6IA95-euEoyc1jBT7xgPAi2YmFegPkzSEouuNfuTArQpQ/exec')
-        setNombre('Olga Villacis')
+        setLink3('https://script.google.com/macros/s/AKfycbyfBTJhEjJAjzD88WXlghz4tHDzOYBMMW53H3u31V4bxECJQefUIMykvi1AWOMg-2rzUw/exec')
+        setNombre('Verónica Salazar')
         setDireccion('Gestión de Consejo Cantonal de Protección de Derechos')
         break;
-      case 'jaramillod@gadmriobamba.gob.ec': //TICS
+      case 'basantezc@gadmriobamba.gob.ec': //POLICIA Y CONTROL MUNICIPAL
+        setLink('https://lookerstudio.google.com/embed/reporting/37b8c0e3-4e53-4d24-8586-457841b9d1c7/page/p_4imijh56bd'); 
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbz81wZW4a8PcViMtM_JwmG6LCJU54W0oMdbUmb0D_B675hZrwP6Gh9hfj7M4mZA60U-/exec')
+        setNombre('Cesar Basantez')
+        setDireccion('Gestión de Policia y Control Municipal')
+        break;
+      case 'pilar.herrera@gadmriobamba.gob.ec': //POLICIA Y CONTROL MUNICIPAL
+        setLink('https://lookerstudio.google.com/embed/reporting/37b8c0e3-4e53-4d24-8586-457841b9d1c7/page/p_4imijh56bd'); 
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbz81wZW4a8PcViMtM_JwmG6LCJU54W0oMdbUmb0D_B675hZrwP6Gh9hfj7M4mZA60U-/exec')
+        setNombre('Pilar Herrera')
+        setDireccion('Gestión de Policia y Control Municipal')
+        break;
+      case 'samaniegoe@gadmriobamba.gob.ec': //TICS
         setLink('https://lookerstudio.google.com/embed/reporting/274a3d9d-3ef8-4d83-905a-0f7c40923d75/page/p_78e3q8kxbd'); 
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
-        setLink3('https://script.google.com/macros/s/AKfycbzeMhMdaVG4j1FDTm195OgPA_yURu4quTJHV7voohrzvg8xQjRkMDuu22-lwLd3abr3xA/exec')
-        setNombre('Dylan Jaramillo')
+        setLink3('https://script.google.com/macros/s/AKfycbxsKuTvCYRv4o-Ec6Lf90UCSCTu5x5n5HpxCL9shOSd1jwj87Fjg1h1W2G4KakxYO_ZVA/exec')
+        setNombre('Eliana Samaniego')
         setDireccion('Gestión de Tecnologías de la Información')
         break;
+      case 'riofriom@gadmriobamba.gob.ec': //MOVILIDAD
+        setLink('https://lookerstudio.google.com/embed/reporting/4554de4e-d93d-4838-bc0f-c92a9e4f53e2/page/p_9e3iik4wbd'); 
+        setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
+        setLink3('https://script.google.com/macros/s/AKfycbx-C9-qGkbHDtGpHG-1-5vv1M0dIA1vPxqZ75s_6lU_RbW4TPXxSK-_aYtdjGSWVkh2dA/exec');
+        setNombre('Paulina Riofrío')
+        setDireccion('Gestión de Movilidad')
+        break;
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      
+      
       case 'nathalyhipo123@gmail.com': //Alcaldia
         setLink('https://lookerstudio.google.com/embed/reporting/318df137-4dfd-47aa-9878-6ebe3b9cb7d7/page/p_9e3iik4wbd'); 
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')

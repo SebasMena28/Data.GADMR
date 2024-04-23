@@ -42,7 +42,7 @@ export default function VistaPAC() {
         paddingBottom: '50%',}}>
       <iframe
         title="DASHBOARD"
-        src="https://docs.google.com/spreadsheets/d/1tJe-1HmJx2LRGx1BKp6PKlqQ72d0uEH9eDWlGpnKH_I/edit?usp=drive_link"
+        src="https://docs.google.com/spreadsheets/d/1CxRmmoCGCN910wNoOewQt9M2rSOATlNJRPKKNqnJqEc/edit?usp=sharing"
         style={{ position: 'absolute', top: '-22%', left: '0', width: '100%', height: '115%', border: 'none' }}
         allowFullScreen
       />

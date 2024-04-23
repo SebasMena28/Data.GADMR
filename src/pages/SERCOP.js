@@ -52,7 +52,6 @@ export default function SERCOP() {
     { label: 'Construcción de la plaza de rastro de la parroquia Licto', value: 'ocds-5wno2w-COTO-GADMR-2023-003-33554' },
     { label: 'Provisión e Instalación de señalética tipo placas para identificativo de establecimientos turísticos del cantón Riobamba por categoría.', value: 'ocds-5wno2w-MCB-GADMR-2023-001-33554' },
     { label: 'Adquisición de cemento para la fabricación de adoquines y varias obras dentro del cantón Riobamba', value: 'ocds-5wno2w-SIE-GADMR-2023-0053-33554' },
-    // Agrega más opciones según sea necesario
   ];
 
   const handleChangeCodigo = (nuevoCodigo) => {
@@ -62,11 +61,11 @@ export default function SERCOP() {
   const [fechaActual, setFechaActual] = useState('');
 
   useEffect(() => {
-    // Función para obtener la fecha actual en formato 'DD/MM/AAAA'
+    // Fecha actual en formato 'DD/MM/AAAA'
     const obtenerFechaActual = () => {
       const hoy = new Date();
       const dia = hoy.getDate();
-      const mes = hoy.getMonth() + 1; // Los meses comienzan desde 0
+      const mes = hoy.getMonth() + 1; 
       const año = hoy.getFullYear();
 
       return `${dia}/${mes}/${año}`;
@@ -78,8 +77,7 @@ export default function SERCOP() {
 
 
   const sercopEmbebido = `https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/ocds/${codigo}?etapa=licitacion`;
-  //console.log(user)
-  //console.log(linkLooker)
+
   return (
     <>
       <Helmet>
@@ -92,27 +90,6 @@ export default function SERCOP() {
           Fecha de actualización: {fechaActual}
         </label>
         <label htmlFor="codigoSelect">Elemento:  </label>
-        {/*<select
-          id="codigoSelect"
-          value={codigo}
-          onChange={(e) => handleChangeCodigo(e.target.value)}
-          style={{
-            width: '100%',
-            padding: '8px',
-            border: '1px solid #ccc',
-            borderRadius: '4px',
-            fontSize: '14px',
-            outline: 'none',
-
-          }}
-        >
-          {opcionesCodigos.map((opcion) => (
-            <option key={opcion.value} value={opcion.value}>
-              {opcion.label}
-            </option>
-          ))}
-        </select>*/}
-
 
         <Select 
         options={opcionesCodigos} 
@@ -123,10 +100,6 @@ export default function SERCOP() {
         />
 
       </div>
-    
-      {/*<div style={{ height: '320vh', position: 'relative', width: '100%', paddingTop: '56.25%', overflow: 'hidden' }}>
-        <iframe title="Google Spreadsheet" src={sercopEmbebido} style={{ position: 'absolute', top: '-15%', left: '0', width: '100%', height: '150%', border: 'none' }}></iframe>
-      </div>*/}
 
       <div style={{ height: '100%', // Cambiado a 100%
         position: 'relative',

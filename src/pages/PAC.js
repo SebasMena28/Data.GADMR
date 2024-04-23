@@ -57,8 +57,9 @@ export default function PAC() {
         paddingBottom: '50%',}}>
       <iframe
         title="DASHBOARD"
-        src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252"
-        style={{ position: 'absolute', top: '-22%', left: '0', width: '100%', height: '118%', border: 'none' }}
+        src="https://app.appsmith.com/app/my-first-application/page1-65f8a369b115217540f73685?branch=preproduccion"
+        //src="https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252"
+        style={{ position: 'absolute', top: '-8%', left: '0', width: '100%', height: '118%', border: 'none' }}
         allowFullScreen
       />
       

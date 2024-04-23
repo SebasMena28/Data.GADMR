@@ -36,7 +36,7 @@ export default function Documentacion() {
       <Container
         maxWidth="xl"
         style={{
-          height: '200%', // Cambiado a 100%
+          height: '250%', // Cambiado a 100%
           marginTop: '-2%', // Eliminado el margen superior negativo
           position: 'relative',
           width: '100%',
@@ -47,7 +47,7 @@ export default function Documentacion() {
         <iframe
           title="Gestión Documental"
           src={linkDoc}
-          style={{ position: 'absolute', left: '0', width: '100%', height: '200%', border: 'none' }}
+          style={{ position: 'absolute', left: '0', width: '100%', height: '250%', border: 'none' }}
           allowFullScreen
         />
       </Container>

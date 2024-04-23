@@ -161,11 +161,11 @@ const AuthProvider = ({ children }) => {
   const getLinkLooker = (usuario) =>{
     //LINK LOOKER
     switch (usuario) {   
-      case 'nathalyhipo123@gmail.com': //Alcaldia
+      case 'corralm@gadmriobamba.gob.ec': //Alcaldia
         setLink('https://lookerstudio.google.com/embed/reporting/318df137-4dfd-47aa-9878-6ebe3b9cb7d7/page/p_9e3iik4wbd'); 
         setLink2('https://docs.google.com/spreadsheets/d/1th1pwRKEYJeeEW52oobjJdZXhQv-9wFUMZbc_FwNfiQ/edit#gid=432656252')
         setLink3('https://script.google.com/macros/s/AKfycbxJGFZYfdAT0c8gvO3hrQxB9jp4wA5e3KWonflGEK5u5EUCLR2as5VAK3WHVayKAZ6k/exec')
-        setNombre('Nathaly Hipo')
+        setNombre('María José Corral')
         setDireccion('Alcaldía')
         break;
       case 'alcaldia@gadmriobamba.gob.ec': //Alcaldia

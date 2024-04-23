@@ -12,6 +12,7 @@ import Documentacion from './pages/Documentacion';
 import Mapa from './pages/Mapa';
 import SERCOP from './pages/SERCOP';
 import VistaPAC from './pages/VistaPAC';
+import Disposiciones from './pages/Disposiciones';
 import Subsistemas from './pages/Subsistemas';
 import {AuthRoute} from './components/protectRoute/AuthRoute';
 import RegisterPage from './pages/RegisterPage';
@@ -29,7 +30,7 @@ export default function Router() {
         { element: <Navigate to="/dashboard/app" />, index: true },
         { path: 'app', element: <AuthRoute  ><DashboardAppPage /></AuthRoute>},
         { path: 'user',  element: <AuthRoute  ><PAC /></AuthRoute>},
-
+        { path: 'disposiciones',element: <AuthRoute  ><Disposiciones/> </AuthRoute>},
         { path: 'products',element: <AuthRoute  ><Documentacion/> </AuthRoute>},
         { path: 'mapa',element: <AuthRoute  ><Mapa/> </AuthRoute>},
         { path: 'sercop',element: <AuthRoute  ><SERCOP/> </AuthRoute>},

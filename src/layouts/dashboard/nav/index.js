@@ -13,7 +13,7 @@ import Logo from '../../../components/logo';
 import Scrollbar from '../../../components/scrollbar';
 import NavSection from '../../../components/nav-section';
 //
-//import navConfig from './config';
+import navConfig from './config';
 import navConfig2 from './config2';
 import { useAuth } from '../../../context/supaContex';
 
@@ -77,8 +77,8 @@ export default function Nav({ openNav, onCloseNav }) {
         </Link>
       </Box>
 
-      {/*{direccion=='GADM Riobamba' ? <NavSection data={navConfig} /> : <NavSection data={navConfig2} />}*/}
-      <NavSection data={navConfig2} />
+      {direccion=='Alcaldía' ? <NavSection data={navConfig} /> : <NavSection data={navConfig2} />}
+      {/*<NavSection data={navConfig2} />*/}
 
       <Box sx={{ flexGrow: 1 }}/>
         

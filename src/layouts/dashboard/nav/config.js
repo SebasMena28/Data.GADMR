@@ -12,12 +12,17 @@ const navConfig = [
     icon: <img src="https://cdn-icons-png.freepik.com/512/8899/8899687.png" alt="login" width="30px" height="30px" />,
   },
   {
+    title: 'disposiciones',
+    path: '/dashboard/disposiciones',
+    icon: <img src="https://cdn-icons-png.flaticon.com/512/9369/9369956.png" alt="login" width="30px" height="30px" />,
+  },
+  {
     title: 'Registro de PAC',
     path: '/dashboard/user',
     icon: icon('ic_user'),
   },  
   {
-    title: 'Documentación de PAC',
+    title: 'Sentencias',
     path: '/dashboard/products',
     icon: <img src="https://cdn-icons-png.flaticon.com/512/3396/3396255.png" alt="login" width="30px" height="30px" />,
   },

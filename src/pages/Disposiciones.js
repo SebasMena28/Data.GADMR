@@ -9,6 +9,7 @@ import Apu from './chatbotApu';
 // ----------------------------------------------------------------------
 
 export default function Disposiciones() {
+    const { user, disposicion } = useAuth();
   const chatUrl = 'https://mediafiles.botpress.cloud/634d2b82-4a73-4676-85d7-764180e85b0f/webchat/bot.html';
 
   return (
@@ -25,8 +26,8 @@ export default function Disposiciones() {
         overflow: 'auto',
         paddingBottom: '50%',}}>
       <iframe
-        title="DASHBOARD"
-        src="https://app.appsmith.com/app/untitled-application-1/page1-6627ccb48b14287e2718d1b3?branch=pruebas"
+        title="Disposiciones"
+        src={disposicion}
         style={{ position: 'absolute', top: '-7%', left: '0', width: '100%', height: '100%', border: 'none' }}
         allowFullScreen
       />

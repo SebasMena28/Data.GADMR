@@ -12,14 +12,14 @@ const navConfig = [
     icon: <img src="https://cdn-icons-png.freepik.com/512/8899/8899687.png" alt="login" width="30px" height="30px" />,
   },
   {
-    title: 'disposiciones',
+    title: 'Disposiciones',
     path: '/dashboard/disposiciones',
     icon: <img src="https://cdn-icons-png.flaticon.com/512/9369/9369956.png" alt="login" width="30px" height="30px" />,
   },
   {
     title: 'Registro de PAC',
     path: '/dashboard/user',
-    icon: icon('ic_user'),
+    icon: <img src="https://cdn-icons-png.flaticon.com/256/1425/1425669.png" alt="login" width="30px" height="30px" />,
   },  
   {
     title: 'Sentencias',
@@ -39,12 +39,12 @@ const navConfig = [
   {
     title: 'SERCOP',
     path: '/dashboard/sercop',
-    icon: <img src="https://c8.alamy.com/compes/2d7n6b3/icono-de-solicitud-de-documento-esquema-documento-solicitud-vector-icono-para-diseno-web-aislado-sobre-fondo-blanco-2d7n6b3.jpg" alt="login" width="30px" height="30px" />,
+    icon: <img src={`/assets/sercop.png`} alt="login" width="30px" height="30px" />,
   },
   {
     title: 'Cerrar sesión',
     path: '/login',
-    icon: icon('logout'),
+    icon: <img src="https://cdn-icons-png.flaticon.com/256/4083/4083031.png" alt="login" width="30px" height="30px" />,
   },
 
 ];
